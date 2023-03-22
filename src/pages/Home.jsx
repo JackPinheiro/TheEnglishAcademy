@@ -1,7 +1,14 @@
-import MainNavigation from "../components/MainNavigation";
+import hero from "../data/img/hero.jpg";
 
 const HomePage = () => {
-  return <h1>This is The English Academy Website</h1>;
+  return (
+    <section className="">
+      {/* <div>
+        <p>Welcome to the EA</p>
+      </div>
+      <img src={hero} className="h-80" /> */}
+    </section>
+  );
 };
 
 export default HomePage;

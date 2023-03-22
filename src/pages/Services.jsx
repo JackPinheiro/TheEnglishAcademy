@@ -1,38 +1,33 @@
 import React, { Fragment } from "react";
 import { Link } from "react-router-dom";
-import { services } from "../data";
+import { services } from "../data/data-info/services-card-data";
 
 const Services = () => {
   return (
     <Fragment>
+      <section className="container mx-auto flex flex-wrap"></section>
       <div className="container mx-auto my-4 grid grid-cols-5 gap-6">
         {services.map((serv) => (
-          <div className="max-w-xs overflow-hidden rounded-lg border border-gray-200 bg-white shadow hover:scale-105">
-            <Link to="/services/:id">
+          <Link to="/services/:id">
+            <div className="lg mx-auto max-h-96 w-60  overflow-hidden rounded-lg bg-white shadow-xl transition ease-in-out hover:scale-105">
               <img
-                className="w-full rounded-t-lg"
+                className="h-2/5 w-full object-cover"
                 src={serv.image}
                 alt={serv.alt}
               />
-            </Link>
-            <div className="p-5">
-              <Link to="/services/:id">
-                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900">
+              <div className="p-5">
+                <h5 class="mb-2 text-center text-2xl font-bold tracking-tight text-gray-900">
                   {serv.title}
                 </h5>
-              </Link>
-              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                {serv.text}
-              </p>
-              <Link
-                to="/services/:id"
-                className="inline-flex items-center rounded-lg bg-blue-700 px-3 py-2 text-center text-sm font-medium text-white hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300"
-              >
-                Read more
-                {/* ICON */}
-              </Link>
+                <p class="mb-3 text-center font-normal text-gray-700">
+                  {serv.text}
+                </p>
+                <button className="rounded-lg bg-blue-700 px-3 py-2 text-sm font-medium text-white hover:bg-blue-800">
+                  Read more
+                </button>
+              </div>
             </div>
-          </div>
+          </Link>
         ))}
       </div>
     </Fragment>
