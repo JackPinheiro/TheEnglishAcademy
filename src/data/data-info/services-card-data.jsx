@@ -4,7 +4,6 @@
 
 import Abroad from "../img/Abroad.jpg";
 import Exam from "../img/Exam.jpg";
-import Adult from "../img/Adultschool.jpg";
 import Company from "../img/CompanyTraining.jpg";
 import Early from "../img/EarlyEnglish.jpg";
 import Other from "../img/OtherLanguages.jpg";

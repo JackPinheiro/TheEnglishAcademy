@@ -3,6 +3,8 @@ import { Link, NavLink, Outlet } from "react-router-dom";
 import logo from "../data/img/Logotext.png";
 import logo2 from "../data/img/LogoImg.jpg";
 
+// FIX CENTER BURGER MENU / EVENTS + CONTACT PAGE + CONTACT FORM
+
 const isActive = ({ isActive }) =>
   isActive
     ? " font-medium text-blue-900"
@@ -14,7 +16,7 @@ const MainNavigation = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="fixed top-0 left-0 w-full shadow-md">
+    <header className="sticky top-0 left-0 z-[1000] w-full shadow-md">
       <div className="items-center justify-between bg-white py-4 px-7 md:flex md:px-10">
         <NavLink to="/">
           <div className="flex items-center ">
@@ -27,12 +29,12 @@ const MainNavigation = () => {
           {/* Mobile button */}
           <button
             onClick={() => setIsOpen(!isOpen)}
-            className="absolute right-8 top-6 text-3xl md:hidden"
+            className="absolute right-8 top-6  text-3xl md:hidden"
           >
             <ion-icon name={isOpen ? "close" : "menu"}></ion-icon>
           </button>
           <ul
-            className={`absolute left-0 z-[-1] m-auto w-full  gap-8 bg-white pb-12 pl-9 transition-all duration-300 ease-in  md:static md:z-auto md:w-auto md:flex md:items-center md:pb-0 md:pl-0 ${
+            className={`absolute left-0 m-auto w-full  gap-8 bg-white pb-12 pl-9 transition-all duration-300 ease-in  md:static md:z-auto md:flex md:w-auto md:items-center md:pb-0 md:pl-0 ${
               isOpen
                 ? "top-20 opacity-100"
                 : "top-[-490px] opacity-0 md:opacity-100"
@@ -48,7 +50,7 @@ const MainNavigation = () => {
             <li>
               <NavLink
                 to="/contactus"
-                className="rounded-md bg-blue-700 px-6 py-2.5  font-medium text-white shadow duration-300 hover:bg-blue-500"
+                className="rounded-md bg-[#012169] px-6 py-2.5 font-medium text-white shadow  transition duration-300 hover:bg-[#023BC0] focus:outline-none focus:ring focus:ring-yellow-400"
               >
                 Contact Us
               </NavLink>
