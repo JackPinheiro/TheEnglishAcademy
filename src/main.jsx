@@ -10,6 +10,7 @@ import About from "./pages/About";
 import ContactUs from "./pages/ContactUs";
 import Error from "./pages/Error";
 import ServiceDetail from "./pages/ServiceDetail";
+import Testimonial from "./pages/Testimonial";
 
 const router = createBrowserRouter([
   {
@@ -21,6 +22,7 @@ const router = createBrowserRouter([
       { path: "/about", element: <About /> },
       { path: "/services", element: <Services /> },
       { path: "/contactus", element: <ContactUs /> },
+      { path: "/testimonials", element: <Testimonial /> },
       { path: "/services/:serviceId", element: <ServiceDetail /> },
     ],
   },

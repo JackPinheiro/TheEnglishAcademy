@@ -10,7 +10,7 @@ const isActive = ({ isActive }) =>
     ? " font-medium text-blue-900"
     : " font-medium text-blue-600 hover:text-blue-900 duration-300";
 
-const nav = ["About", "Services", "Events", "Contacts"];
+const nav = ["About", "Services", "Events", "Testimonials", "Contacts"];
 
 const MainNavigation = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -18,7 +18,7 @@ const MainNavigation = () => {
   return (
     <header className="sticky top-0 left-0 z-[1000] w-full shadow-md">
       <div className="items-center justify-between bg-white py-4 px-7 md:flex md:px-10">
-        <NavLink to="/">
+        <NavLink to="/" >
           <div className="flex items-center ">
             <img src={logo} className="h-10" />
             <img src={logo2} className="h-10" />
@@ -42,7 +42,11 @@ const MainNavigation = () => {
           >
             {nav.map((link) => (
               <li key={link} className="my-7 text-lg md:my-0 ">
-                <NavLink to={`/${link}`} className={isActive}>
+                <NavLink
+                  to={`/${link}`}
+                  className={isActive}
+                  onClick={() => setIsOpen(!isOpen)}
+                >
                   {link}
                 </NavLink>
               </li>

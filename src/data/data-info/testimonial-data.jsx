@@ -1,4 +1,32 @@
-// Testimonials/ Testamunhos
+export const testimonials_EN = [
+  {
+    name: "Camila",
+    title: "Cambridge First",
+    description:
+      "I came to THE ENGLISH ACADEMY in the 4th grade. I am now in the 9th grade and already a fluent speaker. Vicki is an excellent teacher and lessons are never boring. Studying here feels so exciting and it’s easy to achieve remarkable results. I feel comfortable and confident speaking English and so proud of the skills I have acquired, thanks to THE ENGLISH ACADEMY.",
+  },
+  {
+    name: "Inês",
+    title: "Adult individual classes",
+    description:
+      "I started my English classes 2 years ago and my improvement has been huge!! When I started, I barely knew how to have a really basic conversation and now I can speak about whatever I want.\n Vicki is an amazing professional! She's so kind, and helpful... I'm really glad that I chose this school to finally improve my English.",
+  },
+
+  {
+    name: "Maria Miguel",
+    title: "Cambridge Preliminary",
+    description:
+      "THE ENGLISH ACADEMY is an important place for me, because it strengthened some of my friendships and helped me improve my English a lot by preparing me for the future since English is one of the fundamental languages nowadays. The teacher-student relationship is very good and so are the facilities. I really like to study there.",
+  },
+  //   {
+  //     name: "Beatriz",
+  //     title: "Ex-CAE",
+  //     description:
+  //       "I entered THE ENGLISH ACADEMY in my 5th year of school in 2014 and studied there for 8 years.\n In the beginning, I had difficulties with English but because I joined THE ENGLISH ACADEMY, it evolved a lot throughout the years allowing me to reach a level of almost fluency.\n I finished with the CAE C1 level. The classes were always very well organised and sometimes we would even play various educational games which were a lot of fun. One of the activities I liked the most was definitely when we sent letters to English students from other countries, we call them 'penpals'.\n Of course, my great evolution wouldn't be possible without a great teacher. The best English teacher I have ever had. I highly recommend THE ENGLISH ACADEMY, it's 100% worth it!",
+  //   },
+];
+
+// Testimonials/ Testemunhos
 
 // I came to THE ENGLISH ACADEMY in the 4th grade. I am now in the 9th grade and already a fluent speaker. Vicki is an excellent teacher and lessons are never boring. Studying here feels so exciting and it’s easy to achieve remarkable results. I feel comfortable and confident speaking English and so proud of the skills I have acquired, thanks to THE ENGLISH ACADEMY.
 // Camila – Cambridge First
@@ -66,8 +94,6 @@
 
 // Estudo aqui desde o 5º ano e agora estou na 9º ano. Aprender aqui é muito fácil e muito divertido porque, além do trabalho normal, também fazemos atividades e jogos. Eu não saberia tanto inglês quanto sei agora se não tivesse estudado aqui.
 // Francisco – Cambridge First
-
-
 
 // Parent review
 // As a mother I want the best for my children. I have known Vicki since my English course. Vicki is such a good teacher that I had no doubts when choosing my children’s English school. THE ENGLISH ACADEMY is a great place to learn, in a fun way and my kids just love to go there and learn. Their evolution in terms of the English language is amazing, and the results are remarkable. They can go anywhere in the world where English is spoken, and they will not have any trouble understanding and talking. We already proved that during a trip to Germany. This school is a place where teaching is the real mission and learning is not hard. The students are recognized and motivated. During the classes they develop not only their language skills but also social skills.

@@ -1,12 +1,14 @@
 import { Fragment } from "react";
 import Body from "../components/Body";
 import Hero from "../components/Hero";
+import Testimonials from "../components/Testimonials";
 
 const HomePage = () => {
   return (
     <Fragment>
       <Hero />
       <Body />
+      <Testimonials />
     </Fragment>
     // <section className="z-50 mx-auto max-w-screen-xl px-4 py-8 sm:py-12 sm:px-6 lg:py-16 lg:px-8">
     //   <div className="lg: grid grid-cols-1 gap-8 lg:grid-cols-2 ">
