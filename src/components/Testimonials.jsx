@@ -2,6 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { testimonials_EN } from "../data/data-info/testimonial-data";
 
+const testi_slice = testimonials_EN.slice(0, 3);
+
 const Testimonials = () => {
   return (
     <section className="bg-gray-100">
@@ -23,7 +25,7 @@ const Testimonials = () => {
         </div>
 
         <div class="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          {testimonials_EN.map((test) => (
+          {testi_slice.map((test) => (
             <blockquote class="flex h-full flex-col justify-between bg-white p-12">
               <div>
                 <div class="mt-1">

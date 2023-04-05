@@ -18,12 +18,36 @@ export const testimonials_EN = [
     description:
       "THE ENGLISH ACADEMY is an important place for me, because it strengthened some of my friendships and helped me improve my English a lot by preparing me for the future since English is one of the fundamental languages nowadays. The teacher-student relationship is very good and so are the facilities. I really like to study there.",
   },
-  //   {
-  //     name: "Beatriz",
-  //     title: "Ex-CAE",
-  //     description:
-  //       "I entered THE ENGLISH ACADEMY in my 5th year of school in 2014 and studied there for 8 years.\n In the beginning, I had difficulties with English but because I joined THE ENGLISH ACADEMY, it evolved a lot throughout the years allowing me to reach a level of almost fluency.\n I finished with the CAE C1 level. The classes were always very well organised and sometimes we would even play various educational games which were a lot of fun. One of the activities I liked the most was definitely when we sent letters to English students from other countries, we call them 'penpals'.\n Of course, my great evolution wouldn't be possible without a great teacher. The best English teacher I have ever had. I highly recommend THE ENGLISH ACADEMY, it's 100% worth it!",
-  //   },
+  {
+    name: "Beatriz",
+    title: "Ex-CAE",
+    description:
+      "I entered THE ENGLISH ACADEMY in my 5th year of school in 2014 and studied there for 8 years.\n In the beginning, I had difficulties with English but because I joined THE ENGLISH ACADEMY, it evolved a lot throughout the years allowing me to reach a level of almost fluency.\n I finished with the CAE C1 level. The classes were always very well organised and sometimes we would even play various educational games which were a lot of fun. One of the activities I liked the most was definitely when we sent letters to English students from other countries, we call them 'penpals'.\n Of course, my great evolution wouldn't be possible without a great teacher. The best English teacher I have ever had. I highly recommend THE ENGLISH ACADEMY, it's 100% worth it!",
+  },
+  {
+    name: "Ana Pereira",
+    title: "Cambridge First",
+    description:
+      "THE ENGLISH ACADEMY has been an important part of my English route. I have been learning here since I was nine and I believe it has helped me a lot, and not only at school. Studying here has made me like speaking English and feeling comfortable with it. I like going to the classes. I feel that I am always accompanied and Vicki is always prepared to help us. I think that having a good level of English is very important and a plus for our future. Learning here is fun and everyone should have this in life.",
+  },
+  {
+    name: "José",
+    title: "Adult group and individual classes",
+    description:
+      "Vicki, I’d like to thank you for everything you've done for me during this journey.\n I started the lessons about a year ago, with the goal of being able to speak English fluently as quickly as possible. It should be noted that, when I started, I hardly spoke any English at all, just a few basic words but nowadays I can talk about any subject with some ease. This was only possible due to the excellent support provided by the school.",
+  },
+  {
+    name: "Francisco",
+    title: "Cambridge First",
+    description:
+      "I’ve been studying here since 5th grade and I’m in the 9th grade now. Learning here is very easy and lots of fun because, apart from the normal work we also do activities and games. I wouldn’t know as much English as I do now if I hadn’t studied here.",
+  },
+  {
+    name: "Sónia P.",
+    title: "Former student and mother of two",
+    description:
+      "As a mother I want the best for my children. I have known Vicki since my English course. Vicki is such a good teacher that I had no doubts when choosing my children’s English school. THE ENGLISH ACADEMY is a great place to learn, in a fun way and my kids just love to go there and learn. Their evolution in terms of the English language is amazing, and the results are remarkable. They can go anywhere in the world where English is spoken, and they will not have any trouble understanding and talking. We already proved that during a trip to Germany. This school is a place where teaching is the real mission and learning is not hard. The students are recognized and motivated. During the classes they develop not only their language skills but also social skills.\n I am very proud of my children and very grateful to this wonderful teacher they have.",
+  },
 ];
 
 // Testimonials/ Testemunhos

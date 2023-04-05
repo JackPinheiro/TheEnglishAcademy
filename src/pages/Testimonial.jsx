@@ -1,9 +1,12 @@
 import React from "react";
 import { testimonials_EN } from "../data/data-info/testimonial-data";
+import { ScrollRestoration } from "react-router-dom";
+
 
 const Testimonial = () => {
   return (
     <section className="bg-gray-100">
+      <ScrollRestoration />
       <div className="mx-auto max-w-screen-2xl px-4 py-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {testimonials_EN.map((test) => (
