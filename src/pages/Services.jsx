@@ -13,10 +13,10 @@ const Services = () => {
 
         <div className="mx-auto grid max-w-lg grid-cols-1 gap-8 lg:max-w-6xl lg:grid-cols-2">
           {services.map((service, key) => (
-            <Link to={service.title} key={service.title}>
+            <Link to={service.slug} key={service.title}>
               <article className="flex gap-1 overflow-hidden rounded-lg bg-white shadow-md transition-all hover:shadow-xl md:hover:scale-105">
                 <img
-                  alt="Office"
+                  alt={service.title}
                   src={service.image}
                   className="h-40 w-40 object-cover"
                 />
