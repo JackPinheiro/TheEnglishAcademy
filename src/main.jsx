@@ -6,10 +6,10 @@ import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import HomePage from "./pages/Home";
 import Services from "./pages/Services";
-import ContactUs from "./pages/ContactUs";
 import Error from "./pages/Error";
 import ServiceDetail from "./pages/ServiceDetail";
 import Testimonial from "./pages/Testimonial";
+import ContactForm from "./components/ContactForm";
 
 const router = createBrowserRouter([
   {
@@ -19,7 +19,6 @@ const router = createBrowserRouter([
     children: [
       { path: "/", element: <HomePage /> },
       { path: "/services", element: <Services /> },
-      { path: "/contactus", element: <ContactUs /> },
       { path: "/testimonials", element: <Testimonial /> },
       {
         path: "/services/:slug",

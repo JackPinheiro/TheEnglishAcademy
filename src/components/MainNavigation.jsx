@@ -1,7 +1,8 @@
-import React, { Fragment, useState } from "react";
-import { Link, NavLink, Outlet } from "react-router-dom";
+import React, { useState } from "react";
+import { NavLink } from "react-router-dom";
 import logo from "../data/img/Logotext.png";
 import logo2 from "../data/img/LogoImg.jpg";
+import ContactForm from "./ContactForm";
 
 // FIX CENTER BURGER MENU / EVENTS + CONTACT PAGE + CONTACT FORM
 
@@ -14,6 +15,7 @@ const nav = ["Services", "Testimonials"];
 
 const MainNavigation = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [showModal, setShowModal] = useState(false);
 
   return (
     <header className="sticky top-0 left-0 z-[1000] w-full shadow-md">
@@ -52,12 +54,16 @@ const MainNavigation = () => {
               </li>
             ))}
             <li>
-              <NavLink
-                to="/contactus"
+              <button
+                onClick={() => setShowModal(true)}
                 className="rounded-md bg-[#012169] px-6 py-2.5 font-medium text-white shadow  transition duration-300 hover:bg-[#023BC0] focus:outline-none focus:ring focus:ring-yellow-400"
               >
                 Contact Us
-              </NavLink>
+              </button>
+              <ContactForm
+                isVisible={showModal}
+                onClose={() => setShowModal(false)}
+              />
             </li>
           </ul>
         </nav>

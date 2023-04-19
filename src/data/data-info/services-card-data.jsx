@@ -81,9 +81,9 @@ export const services = [
   },
   {
     image: Abroad,
-    title: "Organisation of Courses Abroad",
+    title: "Courses Abroad",
     text: "Always wanted to study abroad? Here's your chance.",
-    slug: slugify("Organisation of Courses Abroad", { lower: true }),
+    slug: slugify("Courses Abroad", { lower: true }),
     description:
       "Are you interested in studying abroad to improve your English?\n THE ENGLISH ACADEMY works with a number of reputable English language schools where you can choose to stay with a native host family or on campus, and participate in daily English lessons, activities and fun days out.\n The courses are suitable for all ages and levels and take place throughout the year but school students can also take a little time out of their summer holidays to have the experience of a lifetime.",
   },

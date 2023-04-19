@@ -1,26 +1,19 @@
 import React from "react";
 import { about_EN } from "../data/data-info/about-data";
 import { Link } from "react-router-dom";
+import Carousel from "./Carousel";
 
 const About = () => {
   return (
     <section>
       <div className="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 sm:py-24 lg:px-8">
         <div className="max-w-3xl">
-          <h2 className="text-4xl font-cus font-bold tracking-tight sm:text-5xl">
+          <h2 className="font-cus text-4xl font-bold tracking-tight sm:text-5xl">
             The best school for you
           </h2>
         </div>
 
         <div className="mt-16 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-2 lg:gap-16">
-          <div className="relative h-64 overflow-hidden rounded-2xl sm:h-80 lg:h-full">
-            <img
-              alt="The English Academy entrance with kids jumping"
-              src={about_EN.image}
-              className="absolute inset-0 h-full w-full object-cover"
-            />
-          </div>
-
           <div className="lg:py-16">
             <article className="space-y-4 text-gray-600">
               <p>{about_EN.about}</p>
@@ -32,6 +25,20 @@ const About = () => {
               </Link>
             </article>
           </div>
+          <div className="max-w-lg">
+            <Carousel>
+              {about_EN.images.map((i) => (
+                <img src={i} />
+              ))}
+            </Carousel>
+          </div>
+          {/* <div className="relative h-64 overflow-hidden rounded-2xl sm:h-80 lg:h-full">
+            <img
+              alt="The English Academy entrance with kids jumping"
+              src={about_EN.image[0]}
+              className="absolute inset-0 h-full w-full object-cover"
+            />
+          </div> */}
         </div>
 
         <div className="mt-16 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-2 lg:gap-16">

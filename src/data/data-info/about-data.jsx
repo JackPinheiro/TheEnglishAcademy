@@ -1,12 +1,15 @@
-import tea_entry from "../img/tea_entry.jpg";
+import t1 from "../img/tea_entry.jpg";
+import t2 from "../img/image-2.jpg";
+import t4 from "../img/image-4.jpg";
+import t6 from "../img/image-6.jpg";
 import director from "../img/director.jpg";
 
 export const about_EN = {
   about:
-    "THE ENGLISH ACADEMY is a language school with a difference. Specialising in every type of English course for people of all ages and in particular, preparation for Cambridge English exams, the Academy provides you with teachers who are all highly qualified in ESL, possess the CAP certificate and have vast experience in teaching. However, English is not our only forte.\n Click below to find out more about our amazing services! ",
+    "THE ENGLISH ACADEMY is a language school with a difference. Specialising in every type of English course for people of all ages and in particular, preparation for Cambridge English exams, the Academy provides you with teachers who are all highly qualified in ESL, possess the CAP certificate and have vast experience in teaching. However, English is not our only forte.\n Click below to find out more about what we have to offer! ",
   about_director:
     "Born and bred in Leeds, in the North of England, Victoria is a very proud British citizen. Having finished university in 2000, graduating in English and Theatre Studies, Victoria moved to Northern Portugal to pursue her teaching career and has been an ESL teacher ever since. Working in many different institutions and companies, teaching all ages and levels, she has built up a vast CV. In 2012, with 12 years’ experience under her belt, she decided to embark on her next challenge and opened up her own school, THE ENGLISH ACADEMY, something she had been thinking about doing for several years. For this venture, Victoria has had to turn her hand to many new things, principally the general day-to-day running of the Academy but continues to be the principal English teacher, which she considers to be her most important role. However, she believes that having both these responsibilities is essential as it helps in identifying the needs of the Academy and its students, making it easier to resolve any problems quickly and efficiently.",
-  image: tea_entry,
+  images: [t1, t2, t4, t6],
   image_director: director,
 };
 
