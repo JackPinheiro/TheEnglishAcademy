@@ -13,23 +13,26 @@ const ContactForm = ({ isVisible, onClose, children }) => {
       className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-25 backdrop-blur-sm"
       onClick={handleClose}
     >
-      <div className="flex w-[600px] flex-col">
+      <div className="flex w-5/6 flex-col">
         <button
           className="place-self-end text-xl text-white"
           onClick={() => onClose()}
         >
           X
         </button>
-        <div className=" rounded bg-white p-2 text-center text-gray-800">
+        <div className="rounded bg-white p-2 text-center text-gray-800">
           <div className="mx-auto max-w-6xl px-3 lg:px-6">
             <h2 class="mb-12 text-3xl font-bold">Contact us</h2>
-            <div className="flex justify-between">
-            <h2>Address</h2>
-              <p>
-                Avenida Adelino Amaro da Costa 346 R/C 3700-023 São João da
-                Madeira
-              </p>
-
+            <div className="flex justify-between gap-8">
+              <div>
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1031.9793931422148!2d-8.485015178511004!3d40.89253747828371!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2spt!4v1682363562086!5m2!1sen!2spt"
+                  width="400"
+                  height="300"
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                ></iframe>
+              </div>
               <form>
                 <div className="mb-6">
                   <input

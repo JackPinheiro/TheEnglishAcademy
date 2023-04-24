@@ -19,14 +19,14 @@ export const services = [
   {
     image: Exam,
     title: "Cambridge Exam Preparation",
-    text: "Here you can prepare for your Cambridge Exames!",
+    text: "From Young Learners to C2 Profiency.",
     slug: slugify("Cambridge Exam Preparation", { lower: true }),
     description: "FIX",
   },
   {
     image: School,
     title: "School Tutorials",
-    text: "The best tutors for you!",
+    text: "Improve your school grades with us!",
     slug: slugify("School Tutorials", { lower: true }),
     description:
       "If you are having difficulties with your school subjects or need to improve your marks, then THE ENGLISH ACADEMY is on hand to help. We offer tutoring services for all year groups, whatever your difficulty may be.",
@@ -34,7 +34,7 @@ export const services = [
   {
     image: Early,
     title: "Early Years English",
-    text: "For kids aged 3 to 6 years",
+    text: "Start learning young. For children from 3-6 years of age.",
     slug: slugify("Early Years English", { lower: true }),
     description:
       "When a child starts learning a foreign language from a young age (from birth to about 10 years old), they will pick it up much easier than those who wait, and will have the ability to speak like a native! Young children are able to absorb and reproduce new sounds with ease, meaning they are able to learn pronunciation like a native speaker. While it is possible to become a highly competent speaker at any age, it requires more effort as you get older. With this in mind, The English Academy has developed Early Years English courses for children from 3 to 6 years of age.",
@@ -42,7 +42,7 @@ export const services = [
   {
     image: General,
     title: "General English",
-    text: "Sutible for anyone!",
+    text: "For adult students wanting to improve their English.",
     slug: slugify("General English", { lower: true }),
     description:
       "If you are interested in starting to learn English or you want to improve what you already know, then a general English course could be just what you need.\n THE ENGLISH ACADEMY offers courses in general English for all ages and levels.\n Courses are available for individual students if you would like something tailor-made just for you, or in groups which gives you the opportunity to practice what you are learning with your classmates.",
@@ -50,7 +50,7 @@ export const services = [
   {
     image: Pt,
     title: "Portuguese for Foreigners",
-    text: "Can't speak portuguese? Not a problem!",
+    text: "Moved to Portugal? Let us help you learn the language!",
     slug: slugify("Portuguese for Foreigners", { lower: true }),
     description:
       "For those who have moved to Portugal and are struggling with the Portuguese language, THE ENGLISH ACADEMY has the solution for you. Whether you want to start learning or improve what you already know, we have a teacher to help you with the process.",
@@ -58,7 +58,7 @@ export const services = [
   {
     image: Other,
     title: "Other Language Courses",
-    text: "Looking for another language? We got you covered.",
+    text: "Looking for another language? We've got you covered.",
     slug: slugify("Other Language Courses", { lower: true }),
     description:
       "THE ENGLISH ACADEMY recognises the importance of not only English but also the other languages of the world and this is why we have several teachers available to help you. Should you need help learning a language that's not English, or a document translated, THE ENGLISH ACADEMY can help you.",
@@ -66,15 +66,15 @@ export const services = [
   {
     image: Translation,
     title: "Translations and Certification",
-    text: "In need of translations?",
+    text: "We can translate and certify your texts and documents.",
     slug: slugify("Translations and Certification", { lower: true }),
     description:
-      "Do you work with foreign clients and have documents which need translating? Do you feel like your company website would attract more clients if it were in English? Then, look no further. In THE ENGLISH ACADEMY, we carry out translations of a wide variety of documents in the following languages: English, Spanish, French, German, Italian and Mandarin.\n Should you require legal certification of your document after it has been translated, together with our lawyer, we can carry out this service for you.",
+      "Do you work with foreign clients and have documents which need translating?\n Do you feel like your company website would attract more clients if it were in English? Then, look no further. At THE ENGLISH ACADEMY, we carry out translations of a wide range of documents in the following languages: English, Spanish, French, German, Italian and Mandarin.\nShould you require legal certification of your translated document, together with our lawyer, we can also carry out this service for you.",
   },
   {
     image: Revision,
     title: "Text Revision and Correction",
-    text: "We also do proofreading for you.",
+    text: "Let us proofread your official texts and documents.",
     slug: slugify("Text Revision and Correction", { lower: true }),
     description:
       "THE ENGLISH ACADEMY also carries out work in the area of the correction and proofreading of texts and translations, such as CVs, published articles, websites and so on. Our meticulous scrutiny of each text ensures a high standard of quality is always maintained.",
@@ -90,7 +90,7 @@ export const services = [
   {
     image: Company,
     title: "Company Training",
-    text: "We teach Business English and General English.",
+    text: "We offer on site, personalised training courses.",
     slug: slugify("Company Training", { lower: true }),
     description: "FIX",
   },
