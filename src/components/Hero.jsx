@@ -26,8 +26,8 @@ const Hero = () => {
           </h1>
 
           <p className="mx-auto mt-4 max-w-md sm:mx-0 sm:max-w-lg sm:text-xl sm:leading-relaxed">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt
-            illo tenetur fuga ducimus numquam ea!
+            "To learn a language is to have one more window from which to look
+            at the world." - Chinese Proverb.
           </p>
 
           <div className="mt-8 flex flex-wrap justify-center gap-4 text-center sm:justify-start ">
@@ -37,14 +37,14 @@ const Hero = () => {
             >
               Contact Us
             </Link>
-            
-              <Link
-                to="/"
-                className="flex gap-2 items-center rounded bg-white px-8 py-3 text-sm font-medium text-gray-800 shadow-xl transition duration-300 hover:bg-[#AAC3FE] hover:text-gray-800 focus:outline-none focus:ring "
-              >
-                Learn More
-                <ArrowDown size={14} />
-              </Link>
+
+            <Link
+              to="/"
+              className="flex items-center gap-2 rounded bg-white px-8 py-3 text-sm font-medium text-gray-800 shadow-xl transition duration-300 hover:bg-[#AAC3FE] hover:text-gray-800 focus:outline-none focus:ring "
+            >
+              Learn More
+              <ArrowDown size={14} />
+            </Link>
           </div>
         </div>
       </div>

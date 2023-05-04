@@ -21,7 +21,7 @@ export const services = [
     title: "Cambridge Exam Preparation",
     text: "From Young Learners to C2 Profiency.",
     slug: slugify("Cambridge Exam Preparation", { lower: true }),
-    description: "FIX",
+    description: "The University of Cambridge exams can serve as a crucial stepping stone for those seeking to study or work abroad. Recognized as proof of English language proficiency, these exams are taken by thousands of people each year in over 135 countries. At THE ENGLISH ACADEMY, we offer all levels of the Cambridge exams, from Young Learners to C2 Proficiency, and conduct exams year-round to help our students achieve their goals.",
   },
   {
     image: School,
@@ -29,7 +29,7 @@ export const services = [
     text: "Improve your school grades with us!",
     slug: slugify("School Tutorials", { lower: true }),
     description:
-      "If you are having difficulties with your school subjects or need to improve your marks, then THE ENGLISH ACADEMY is on hand to help. We offer tutoring services for all year groups, whatever your difficulty may be.",
+      "In the event that you are encountering difficulties with your academic pursuits or aspire to enhance your academic performance, THE ENGLISH ACADEMY is at your disposal to provide comprehensive assistance. We provide top-tier tutoring services for all grade levels, regardless of the complexity of your academic obstacles.",
   },
   {
     image: Early,
@@ -37,7 +37,7 @@ export const services = [
     text: "Start learning young. For children from 3-6 years of age.",
     slug: slugify("Early Years English", { lower: true }),
     description:
-      "When a child starts learning a foreign language from a young age (from birth to about 10 years old), they will pick it up much easier than those who wait, and will have the ability to speak like a native! Young children are able to absorb and reproduce new sounds with ease, meaning they are able to learn pronunciation like a native speaker. While it is possible to become a highly competent speaker at any age, it requires more effort as you get older. With this in mind, The English Academy has developed Early Years English courses for children from 3 to 6 years of age.",
+      "At The English Academy, we understand the undeniable advantages of starting foreign language education at an early age, ideally between infancy to approximately 10 years old. In fact, studies show that children who begin language acquisition during this critical period are more likely to attain native-like proficiency. The plasticity of a young child's developing brain allows for the effortless absorption and replication of new phonemes, resulting in accurate pronunciation and intonation. While it's true that one can achieve fluency at any age, it does require more dedication and diligence as we mature. That's why we have curated our Early Years English courses for children between the ages of 3 and 6 to give them the best possible start in their language learning journey.",
   },
   {
     image: General,
@@ -45,7 +45,7 @@ export const services = [
     text: "For adult students wanting to improve their English.",
     slug: slugify("General English", { lower: true }),
     description:
-      "If you are interested in starting to learn English or you want to improve what you already know, then a general English course could be just what you need.\n THE ENGLISH ACADEMY offers courses in general English for all ages and levels.\n Courses are available for individual students if you would like something tailor-made just for you, or in groups which gives you the opportunity to practice what you are learning with your classmates.",
+      "Whether you're embarking on your English language journey or seeking to enhance your existing proficiency, a general English course could be the ideal solution for you. At THE ENGLISH ACADEMY, we provide a comprehensive range of courses in general English that cater to learners of all ages and levels. We offer customized options for individual students who require a personalized curriculum or group sessions that enable you to engage with fellow learners and practice your language skills in a collaborative environment.",
   },
   {
     image: Pt,
@@ -53,7 +53,7 @@ export const services = [
     text: "Moved to Portugal? Let us help you learn the language!",
     slug: slugify("Portuguese for Foreigners", { lower: true }),
     description:
-      "For those who have moved to Portugal and are struggling with the Portuguese language, THE ENGLISH ACADEMY has the solution for you. Whether you want to start learning or improve what you already know, we have a teacher to help you with the process.",
+      "For expats residing in Portugal who face difficulties in mastering the Portuguese language, THE ENGLISH ACADEMY presents a viable solution. Whether you are seeking to initiate your language learning journey or elevate your existing proficiency, we offer top-notch instruction from experienced teachers who can provide personalized guidance every step of the way. Let us help you surmount linguistic barriers and develop the skills you need to thrive in your new home.",
   },
   {
     image: Other,
@@ -61,7 +61,7 @@ export const services = [
     text: "Looking for another language? We've got you covered.",
     slug: slugify("Other Language Courses", { lower: true }),
     description:
-      "THE ENGLISH ACADEMY recognises the importance of not only English but also the other languages of the world and this is why we have several teachers available to help you. Should you need help learning a language that's not English, or a document translated, THE ENGLISH ACADEMY can help you.",
+      "At THE ENGLISH ACADEMY, we acknowledge the significance of not just English, but also the multitude of other languages spoken worldwide. To that end, we provide access to a team of accomplished instructors who can guide you in your pursuit of mastering a number of languages. In addition, we offer translation services for documents, ensuring that you can communicate effectively across cultures and borders. Whether you're looking to broaden your linguistic horizons or seeking to convey your message accurately, we are here to assist you every step of the way.",
   },
   {
     image: Translation,
@@ -69,7 +69,7 @@ export const services = [
     text: "We can translate and certify your texts and documents.",
     slug: slugify("Translations and Certification", { lower: true }),
     description:
-      "Do you work with foreign clients and have documents which need translating?\n Do you feel like your company website would attract more clients if it were in English? Then, look no further. At THE ENGLISH ACADEMY, we carry out translations of a wide range of documents in the following languages: English, Spanish, French, German, Italian and Mandarin.\nShould you require legal certification of your translated document, together with our lawyer, we can also carry out this service for you.",
+      "If you work with international clients and require translation services for your documents or seek to expand your business's reach through an English version of your website, THE ENGLISH ACADEMY has got you covered. Our expert translators are fluent in a diverse range of languages, including English, Spanish, French, German, Italian, and Mandarin, and are proficient in accurately conveying the nuances of meaning. We can also provide legal certification for your documents post-translation, in collaboration with our in-house legal expert. Let us help you communicate effectively and efficiently with your global clientele.",
   },
   {
     image: Revision,
@@ -77,7 +77,7 @@ export const services = [
     text: "Let us proofread your official texts and documents.",
     slug: slugify("Text Revision and Correction", { lower: true }),
     description:
-      "THE ENGLISH ACADEMY also carries out work in the area of the correction and proofreading of texts and translations, such as CVs, published articles, websites and so on. Our meticulous scrutiny of each text ensures a high standard of quality is always maintained.",
+      "At THE ENGLISH ACADEMY, we offer a range of services in the field of text correction and proofreading, including but not limited to CVs, published articles, and websites. Our meticulous approach to examining every text guarantees that we maintain a high standard of quality and accuracy in all our work. Whether you are a student seeking to refine your academic writing or a professional aiming to enhance your business communications, our team of experts is dedicated to ensuring that your message is conveyed effectively and with precision.",
   },
   {
     image: Abroad,
@@ -85,13 +85,13 @@ export const services = [
     text: "Always wanted to study abroad? Here's your chance.",
     slug: slugify("Courses Abroad", { lower: true }),
     description:
-      "Are you interested in studying abroad to improve your English?\n THE ENGLISH ACADEMY works with a number of reputable English language schools where you can choose to stay with a native host family or on campus, and participate in daily English lessons, activities and fun days out.\n The courses are suitable for all ages and levels and take place throughout the year but school students can also take a little time out of their summer holidays to have the experience of a lifetime.",
+      "If you're seeking to improve your English proficiency by studying abroad, THE ENGLISH ACADEMY can help you access a range of prestigious English language schools. You can opt to stay with a native host family or reside on campus while participating in daily English language lessons, engaging in various activities, and enjoying exciting outings. Our courses cater to learners of all ages and proficiency levels and are offered throughout the year. Moreover, school students can also take advantage of this opportunity during their summer break, embarking on a life-changing adventure while enhancing their language skills.",
   },
   {
     image: Company,
     title: "Company Training",
     text: "We offer on site, personalised training courses.",
     slug: slugify("Company Training", { lower: true }),
-    description: "FIX",
+    description: "In today's globalized business world, effective communication in a foreign language is crucial for building successful relationships with external markets. At THE ENGLISH ACADEMY, our business courses offer participants the opportunity to improve their verbal and written skills, expand their technical vocabulary, and develop their ability to communicate confidently in different contexts.\nWe understand that every company is unique, which is why we provide tailored classroom or online course solutions to meet the specific training needs and commercial objectives of each organization. Our services include conducting evaluations to diagnose training requirements, designing courses aimed at achieving specific goals, and monitoring and evaluating progress to ensure desired outcomes are achieved.",
   },
 ];

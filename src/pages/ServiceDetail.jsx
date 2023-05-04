@@ -38,36 +38,6 @@ const ServiceDetail = () => {
                         {service.description}
                       </div>
                     </li>
-                    <li>
-                      <div>
-                        <p class="mt-5 text-lg font-medium leading-6 text-black">
-                          Ages
-                        </p>
-                      </div>
-                      <div class="mt-2 text-base text-gray-500">
-                        service.age
-                      </div>
-                    </li>
-                    <li>
-                      <div>
-                        <p class="mt-5 text-lg font-medium leading-6 text-black">
-                          Duration
-                        </p>
-                      </div>
-                      <div class="mt-2 text-base text-gray-500">
-                        service.duration
-                      </div>
-                    </li>
-                    <li>
-                      <div>
-                        <p class="mt-5 text-lg font-medium leading-6 text-black">
-                          Pricing
-                        </p>
-                      </div>
-                      <div class="mt-2 text-base text-gray-500">
-                        Contact us for pricing with exclusive website discount!
-                      </div>
-                    </li>
                   </ul>
                 </div>
               </div>
