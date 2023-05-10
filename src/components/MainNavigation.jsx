@@ -8,7 +8,7 @@ import ContactForm from "./ContactForm";
 
 const isActive = ({ isActive }) =>
   isActive
-    ? " font-medium text-blue-900"
+    ? " font-medium text-blue-900 underline underline-offset-4"
     : " font-medium text-blue-600 hover:text-blue-900 duration-300";
 
 const nav = ["Services", "Testimonials"];

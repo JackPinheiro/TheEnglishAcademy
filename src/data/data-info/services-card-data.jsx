@@ -21,7 +21,8 @@ export const services = [
     title: "Cambridge Exam Preparation",
     text: "From Young Learners to C2 Profiency.",
     slug: slugify("Cambridge Exam Preparation", { lower: true }),
-    description: "The University of Cambridge exams can serve as a crucial stepping stone for those seeking to study or work abroad. Recognized as proof of English language proficiency, these exams are taken by thousands of people each year in over 135 countries. At THE ENGLISH ACADEMY, we offer all levels of the Cambridge exams, from Young Learners to C2 Proficiency, and conduct exams year-round to help our students achieve their goals.",
+    description:
+      "The University of Cambridge exams can serve as a crucial stepping stone for those seeking to study or work abroad. Recognized as proof of English language proficiency, these exams are taken by thousands of people each year in over 135 countries. At THE ENGLISH ACADEMY, we offer all levels of the Cambridge exams, from Young Learners to C2 Proficiency, and conduct exams year-round to help our students achieve their goals.",
   },
   {
     image: School,
@@ -45,7 +46,7 @@ export const services = [
     text: "For adult students wanting to improve their English.",
     slug: slugify("General English", { lower: true }),
     description:
-      "Whether you're embarking on your English language journey or seeking to enhance your existing proficiency, a general English course could be the ideal solution for you. At THE ENGLISH ACADEMY, we provide a comprehensive range of courses in general English that cater to learners of all ages and levels. We offer customized options for individual students who require a personalized curriculum or group sessions that enable you to engage with fellow learners and practice your language skills in a collaborative environment.",
+      "Whether you're embarking on your English language journey or seeking to enhance your existing proficiency, a general English course could be the ideal solution for you.\n At THE ENGLISH ACADEMY, we provide a comprehensive range of courses in general English that cater to learners of all ages and levels. We offer customized options for individual students who require a personalized curriculum or group sessions that enable you to engage with fellow learners and practice your language skills in a collaborative environment.",
   },
   {
     image: Pt,
@@ -92,6 +93,7 @@ export const services = [
     title: "Company Training",
     text: "We offer on site, personalised training courses.",
     slug: slugify("Company Training", { lower: true }),
-    description: "In today's globalized business world, effective communication in a foreign language is crucial for building successful relationships with external markets. At THE ENGLISH ACADEMY, our business courses offer participants the opportunity to improve their verbal and written skills, expand their technical vocabulary, and develop their ability to communicate confidently in different contexts.\nWe understand that every company is unique, which is why we provide tailored classroom or online course solutions to meet the specific training needs and commercial objectives of each organization. Our services include conducting evaluations to diagnose training requirements, designing courses aimed at achieving specific goals, and monitoring and evaluating progress to ensure desired outcomes are achieved.",
+    description:
+      "In today's globalized business world, effective communication in a foreign language is crucial for building successful relationships with external markets. At THE ENGLISH ACADEMY, our business courses offer participants the opportunity to improve their verbal and written skills, expand their technical vocabulary, and develop their ability to communicate confidently in different contexts.\nWe understand that every company is unique, which is why we provide tailored classroom or online course solutions to meet the specific training needs and commercial objectives of each organization. Our services include conducting evaluations to diagnose training requirements, designing courses aimed at achieving specific goals, and monitoring and evaluating progress to ensure desired outcomes are achieved.",
   },
 ];
